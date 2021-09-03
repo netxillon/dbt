@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: mywarehousesource
+    description: 'Postgres database'
+    database: employees_database
+    schema: employees
+    tables:
+      - name: employee #required
+        description: 'users table in the mywarehouse db'
