@@ -1,5 +1,5 @@
 with wh_users as (
-    select * from {{ source('mywarehousesource','employee')}}
+    select * from {{ source('source_table','employee')}}
 ),
 
 final as (

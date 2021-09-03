@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: mywarehousesource
+  - name: source_table
     description: 'Postgres database'
     database: employees_database
     schema: employees
