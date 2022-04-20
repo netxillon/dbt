@@ -1,7 +1,5 @@
 
-{{ config(
-    materialized = ('table' if target.name == 'prod' else 'view')
-) }}
+
 
 with source_employee_table as (
     select * from {{ source('source_table','employee')}}
