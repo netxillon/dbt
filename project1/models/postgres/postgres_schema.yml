@@ -7,4 +7,7 @@ sources:
     schema: employees
     tables:
       - name: employee #required
-        description: 'users table in the mywarehouse db'
+        description: 'employee table in the employees_database db'
+      - name: salary #required
+        description: 'salary table in the employees_database db'
+      - name: title

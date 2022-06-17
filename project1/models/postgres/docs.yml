@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: dest_table
+    description: This table contains clickstream events from the marketing website
+
+    columns:
+      - name: id
+        description: This is a unique identifier for the event
+        tests:
+          - unique
+          - not_null
+
+      - name: first_name
+        quote: true
+        description: The user who performed the event
+        tests:
+          - not_null
+
