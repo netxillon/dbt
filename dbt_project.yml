@@ -33,6 +33,5 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 models:
   my_new_project:
-    project1:
       postgres:
           materialized: table
