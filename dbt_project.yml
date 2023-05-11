@@ -34,4 +34,5 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   my_new_project:
       postgres:
-          materialized: table
+        #+schema: employees
+        materialized: view
