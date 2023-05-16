@@ -1,0 +1,14 @@
+
+    
+    
+    
+    create table "sap_dev"."config_metadata"."city" ("city" varchar(7),"post_code" integer)
+  ;
+    -- dbt seed --
+    
+          insert into "sap_dev"."config_metadata"."city" ("city", "post_code") values
+          (%s,%s),(%s,%s),(%s,%s)
+      
+
+;
+  
