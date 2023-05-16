@@ -34,8 +34,8 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 models:
   my_new_project:
-      standarised:
-        +schema: standarised
+      redshift:
+        +schema: public
         materialized: table
 seeds:
   my_new_project:
