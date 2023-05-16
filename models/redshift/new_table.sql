@@ -1,5 +1,5 @@
 with source_users_table as (
-    select * from {{ source('source_table','users')}}
+    select * from {{ source('redshift_tables','users')}}
 ),
 
 final as (
