@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: source_table
+    description: 'Redshift database'
+    database: sap_dev
+    schema: public
+    tables:
+      - name: employee #required
+        description: 'employee table in the employees_database db'
+      - name: salary #required
+        description: 'salary table in the employees_database db'
+      - name: title
