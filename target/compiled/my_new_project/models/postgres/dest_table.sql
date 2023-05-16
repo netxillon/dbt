@@ -1,6 +1,5 @@
-
 with source_employee_table as (
-    select * from {{ source('source_table','employee')}}
+    select * from "employees_database"."employees"."employee"
 ),
 
 final as (
