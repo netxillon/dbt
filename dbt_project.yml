@@ -39,5 +39,5 @@ models:
         materialized: table
 seeds:
   my_new_project:
-    +schema: config_metadata
+      +schema: config_metadata
     
