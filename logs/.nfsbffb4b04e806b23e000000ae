@@ -6781,3 +6781,13 @@ dbt.exceptions.FailedToConnectError: Database Error
 2023-05-16 03:01:59.386637 (Thread-316): handling status request
 2023-05-16 03:01:59.387134 (Thread-316): 03:01:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'bca39433-8ec7-4ef4-ac25-ee10f5b2d154', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f20f50d57c0>]}
 2023-05-16 03:01:59.387708 (Thread-316): sending response (<Response 2477 bytes [200 OK]>) to 10.0.209.90
+2023-05-16 03:02:07.232024 (Thread-317): handling reload request
+2023-05-16 03:02:07.232553 (Thread-317): 03:02:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'bca39433-8ec7-4ef4-ac25-ee10f5b2d154', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f20f50d5d90>]}
+2023-05-16 03:02:07.233041 (Thread-317): sending response (<Response 61 bytes [200 OK]>) to 10.0.209.90
+2023-05-16 03:02:07.264363 (Thread-318): 03:02:07  checksum: 0049c9ca814b191acba678e7b1a0d7a85eeac3e13700309cfc1ce1a2c78d3886, vars: {}, profile: user, target: None, version: 1.4.6
+2023-05-16 03:02:07.310113 (Thread-318): 03:02:07  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2023-05-16 03:02:07.310391 (Thread-318): 03:02:07  Partial parsing enabled, no changes found, skipping parsing
+2023-05-16 03:02:07.315761 (Thread-318): 03:02:07  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'bca39433-8ec7-4ef4-ac25-ee10f5b2d154', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f20743d6d30>]}
+2023-05-16 03:02:07.774281 (Thread-319): handling status request
+2023-05-16 03:02:07.774852 (Thread-319): 03:02:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'bca39433-8ec7-4ef4-ac25-ee10f5b2d154', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f20ec035130>]}
+2023-05-16 03:02:07.775391 (Thread-319): sending response (<Response 1593 bytes [200 OK]>) to 10.0.209.90
