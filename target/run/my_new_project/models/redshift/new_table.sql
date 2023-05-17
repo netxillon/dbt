@@ -3,7 +3,7 @@
     
 
   create  table
-    "sap_dev"."public"."new_table__dbt_tmp"
+    "sap_dev"."dbt_asingh_public"."new_table__dbt_tmp"
     
     
     
