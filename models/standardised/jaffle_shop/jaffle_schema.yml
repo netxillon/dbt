@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    description: 'Redshift database'
+    database: sap_dev
+    schema: standardised
+    tables:
+      - name: orders #required
+        description: 'employee table in the employees_database db'
+      - name: customers #required
+        description: 'salary table in the employees_database db'
+      - name: payments
+  
+

@@ -1,10 +1,12 @@
 
     
     
-    truncate table "sap_dev"."config_metadata"."country_codes";
+    
+    create table "sap_dev"."dbt_asingh"."country_codes" ("country_code" varchar(2),"country_name" varchar(14))
+  ;
     -- dbt seed --
     
-          insert into "sap_dev"."config_metadata"."country_codes" ("country_code", "country_name") values
+          insert into "sap_dev"."dbt_asingh"."country_codes" ("country_code", "country_name") values
           (%s,%s),(%s,%s),(%s,%s)
       
 

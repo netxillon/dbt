@@ -15,7 +15,7 @@ profile: 'default'
 model-paths: ["models"]
 analysis-paths: ["analysis"]
 test-paths: ["tests"]
-seed-paths: ["seed", "data"]
+seed-paths: ["seed"]
 macro-paths: ["macros"]
 snapshot-paths: ["snapshots"]
 
@@ -23,7 +23,7 @@ target-path: "target"  # directory which will store compiled SQL files
 clean-targets:         # directories to be removed by `dbt clean`
     - "target"
     - "dbt_modules"
-
+    - "logs"
 
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
@@ -39,5 +39,8 @@ models:
         +materialized: table
 seeds:
    my_new_project:
-     +schema: config_metadata
+      config_metadata:
+        +schema: config_metadata
+      staging:
+        +schema: staging
     
