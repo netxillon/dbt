@@ -1,0 +1,12 @@
+
+    
+    
+    truncate table "sap_dev"."config_metadata"."codes";
+    -- dbt seed --
+    
+          insert into "sap_dev"."config_metadata"."codes" ("city", "post_code") values
+          (%s,%s),(%s,%s),(%s,%s)
+      
+
+;
+  
